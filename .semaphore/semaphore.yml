@@ -20,7 +20,7 @@ blocks:
       jobs:
         - name: Test
           commands:
-            - bundle exec xcversion select 12.5.1
+            - bundle exec xcversion select 12.5
             - bundle exec fastlane test
       agent:
         machine:
