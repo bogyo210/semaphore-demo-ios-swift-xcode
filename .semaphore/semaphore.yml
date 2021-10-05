@@ -58,7 +58,7 @@ blocks:
       jobs:
         - name: Screenshots
           commands:
-            - bundle exec xcversion select 12.2
+            - bundle exec xcversion select 12.5.1
             - xcrun simctl list
             - bundle exec fastlane screenshots
             - artifact push job screenshots
